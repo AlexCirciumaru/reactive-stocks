@@ -184,9 +184,5 @@ public class ReactiveStockRouter {
                 .body(BodyInserters.fromObject(accountHealth))
                 .switchIfEmpty(ServerResponse.notFound().build()));
         }
-
-
     }
-
-
 }
